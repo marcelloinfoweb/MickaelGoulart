@@ -108,7 +108,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 a {
   font-weight: 600;
   font-style: normal !important;
