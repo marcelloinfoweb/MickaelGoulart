@@ -5,11 +5,7 @@
     >
       <div class="pl-4 flex justify-between items-center">
         <a href="#">
-          <img
-            class="w-40"
-            src="~/assets/imgs/logo_Mickael_Goulart.png"
-            alt="Logo Mickael Goulart"
-          />
+          <img class="w-40" :src="logo" alt="Mickael Goulart" />
         </a>
       </div>
       <div class="block lg:hidden pr-4">
@@ -48,11 +44,14 @@
 
 <script>
 import MenuItem from "@/components/layout/MenuItem.vue";
+import logo from "@/assets/imgs/logo_Mickael_Goulart.png";
+
 export default {
   name: "layout-nav",
 
   components: {
     MenuItem,
+    logo,
   },
 
   data() {
