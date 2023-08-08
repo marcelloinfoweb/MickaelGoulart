@@ -40,44 +40,6 @@
             :item="item"
           />
         </ul>
-
-        <!--        <ul class="list-reset lg:flex justify-end flex-1 items-center">-->
-        <!--          <li class="mr-3">-->
-        <!--            <a-->
-        <!--              class="inline-block uppercase py-2 px-4 font-medium no-underline"-->
-        <!--              href="#"-->
-        <!--              >Início</a-->
-        <!--            >-->
-        <!--          </li>-->
-        <!--          <li class="mr-3">-->
-        <!--            <a-->
-        <!--              class="inline-block uppercase no-underline font-medium hover:text-gray-800 hover:text-underline py-2 px-4"-->
-        <!--              href="#sobre"-->
-        <!--              >Mickael Goulart</a-->
-        <!--            >-->
-        <!--          </li>-->
-        <!--          <li class="mr-3">-->
-        <!--            <a-->
-        <!--              class="inline-block uppercase no-underline font-medium hover:text-gray-800 hover:text-underline py-2 px-4"-->
-        <!--              href="#quiropraxia"-->
-        <!--              >Quiropraxia</a-->
-        <!--            >-->
-        <!--          </li>-->
-        <!--          <li class="mr-3">-->
-        <!--            <a-->
-        <!--              class="inline-block uppercase no-underline font-medium hover:text-gray-800 hover:text-underline py-2 px-4"-->
-        <!--              href="#customers"-->
-        <!--              >Depoimentos</a-->
-        <!--            >-->
-        <!--          </li>-->
-        <!--          <li class="mr-3">-->
-        <!--            <a-->
-        <!--              class="inline-block uppercase no-underline font-medium hover:text-gray-800 hover:text-underline py-2 px-4"-->
-        <!--              href="#contact"-->
-        <!--              >Contato</a-->
-        <!--            >-->
-        <!--          </li>-->
-        <!--        </ul>-->
       </div>
     </div>
     <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
@@ -95,7 +57,7 @@ export default {
 
   data() {
     return {
-      scrollY: window.scrollY,
+      scrollY: typeof window !== "undefined" ? window.scrollY : 0,
       mobileSidebar: false,
       menuItems: [
         { text: "Início", href: "#" },
