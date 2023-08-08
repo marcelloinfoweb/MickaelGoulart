@@ -42,6 +42,10 @@ $ yarn start
 
 # generate static project
 $ yarn generate
+
+# CLOUDFLARE PAGE COMPILE
+# Environment variable
+YARN_ENABLE_IMMUTABLE_INSTALLS=false
 ```
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
