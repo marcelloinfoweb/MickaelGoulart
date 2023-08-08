@@ -1,8 +1,6 @@
-import { defineNuxtConfig } from "@nuxt/bridge";
-
-export default defineNuxtConfig({
+export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: true,
+  ssr: false,
 
   nitro: {
     output: {
@@ -57,4 +55,4 @@ export default defineNuxtConfig({
       },
     },
   },
-});
+};
