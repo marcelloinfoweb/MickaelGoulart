@@ -6341,6 +6341,11 @@ nth-check@^2.0.1:
   dependencies:
     boolbase "^1.0.0"
 
+nuxt-cloudflare-analytics@0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/nuxt-cloudflare-analytics/-/nuxt-cloudflare-analytics-0.1.5.tgz#0fe86fe1fb42c679ec967ba8800dcff7e5f42f43"
+  integrity sha512-2TNHnnXy8QFfkx3fqY/Y28om6r3040RTkvkIvQLbDcNl148AFnj8Gxs+utA3FsXdDyWWsDGBU4f4sr8yF2/sLA==
+
 nuxt@^2.15.8:
   version "2.17.1"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.17.1.tgz#132a8812df48bf2df2fa9c890e63268600d06ce3"
@@ -9229,6 +9234,11 @@ vue-client-only@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/vue-client-only/-/vue-client-only-2.1.0.tgz#1a67a47b8ecacfa86d75830173fffee3bf8a4ee3"
   integrity sha512-vKl1skEKn8EK9f8P2ZzhRnuaRHLHrlt1sbRmazlvsx6EiC3A8oWF8YCBrMJzoN+W3OnElwIGbVjsx6/xelY1AA==
+
+vue-gtag@1.16.1:
+  version "1.16.1"
+  resolved "https://registry.yarnpkg.com/vue-gtag/-/vue-gtag-1.16.1.tgz#edb2f20ab4f6c4d4d372dfecf8c1fcc8ab890181"
+  integrity sha512-5vs0pSGxdqrfXqN1Qwt0ZFXG0iTYjRMu/saddc7QIC5yp+DKgjWQRpGYVa7Pq+KbThxwzzMfo0sGi7ISa6NowA==
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"

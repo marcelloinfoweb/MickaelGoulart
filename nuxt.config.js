@@ -21,7 +21,10 @@ export default {
   css: ["~/assets/css/style.css"],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [{ src: "~/plugins/aos.js", mode: "client" }],
+  plugins: [
+    { src: "~/plugins/aos.js", mode: "client" },
+    { src: "~/plugins/vue-gtag.js" },
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -34,7 +37,14 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: [
+    [
+      "nuxt-cloudflare-analytics",
+      {
+        token: "60e5e5365b8f472886ec449c98667166",
+      },
+    ],
+  ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
