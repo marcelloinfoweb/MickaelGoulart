@@ -44,14 +44,14 @@
 
 <script>
 import MenuItem from "@/components/layout/MenuItem.vue";
-import logo from "@/assets/imgs/logo_Mickael_Goulart.png";
+import Logo from "@/assets/imgs/logo_Mickael_Goulart.png";
 
 export default {
   name: "layout-nav",
 
   components: {
     MenuItem,
-    logo,
+    logo: Logo,
   },
 
   data() {
