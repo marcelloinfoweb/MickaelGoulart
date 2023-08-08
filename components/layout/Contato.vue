@@ -44,7 +44,7 @@ export default defineComponent({
       <button
         type="button"
         class="lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out flex items-center justify-center whatsapp-button"
-        style="color: #008069"
+        style="background-color: #00a884; color: #d1d7db"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
