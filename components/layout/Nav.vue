@@ -51,11 +51,11 @@ export default {
 
   components: {
     MenuItem,
-    logo: Logo,
   },
 
   data() {
     return {
+      logo: Logo,
       scrollY: typeof window !== "undefined" ? window.scrollY : 0,
       mobileSidebar: false,
       menuItems: [
