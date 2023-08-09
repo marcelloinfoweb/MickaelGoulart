@@ -1,8 +1,6 @@
-import { server } from "process";
-
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: false,
+  ssr: true,
   target: "static",
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -34,6 +32,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    "@nuxt/image",
     // https://go.nuxtjs.dev/typescript
     // "@nuxt/typescript-build",
     "@nuxtjs/tailwindcss",
@@ -41,8 +40,8 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    "@nuxt/image",
     "@nuxtjs/sitemap",
+    "@nuxt/image",
     // [
     //   "nuxt-cloudflare-analytics",
     //   {
@@ -52,13 +51,16 @@ export default {
     [
       "nuxt-canonical",
       {
-        baseUrl: "https://mickaelgoulart.pages.dev",
+        baseUrl: "http://localhost:3000",
       },
     ],
   ],
+  image: {
+    baseURL: "http://localhost:3000",
+  },
 
   sitemap: {
-    hostname: "https://mickaelgoulart.pages.dev",
+    hostname: "http://localhost:3000",
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
