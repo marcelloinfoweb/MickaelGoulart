@@ -43,12 +43,12 @@ export default {
   modules: [
     "@nuxt/image",
     "@nuxtjs/sitemap",
-    [
-      "nuxt-cloudflare-analytics",
-      {
-        token: "60e5e5365b8f472886ec449c98667166",
-      },
-    ],
+    // [
+    //   "nuxt-cloudflare-analytics",
+    //   {
+    //     token: "60e5e5365b8f472886ec449c98667166",
+    //   },
+    // ],
     [
       "nuxt-canonical",
       {
