@@ -11,16 +11,11 @@ export default defineComponent({
 <template>
   <section id="quiropraxia" class="bg-white border-b py-8">
     <div class="container max-w-5xl mx-auto m-8">
-      <h2
-        data-aos="fade-up"
-        class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
-      >
+      <h2 data-aos="fade-up" class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
         Sobre a Quiropraxia
       </h2>
       <div data-aos="fade-up" class="w-full mb-4">
-        <div
-          class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
-        ></div>
+        <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
       <div data-aos="fade-up-right" class="flex flex-wrap">
         <div class="w-5/6 sm:w-1/2 p-6">
@@ -35,15 +30,12 @@ export default defineComponent({
           </p>
         </div>
         <div class="w-full sm:w-1/2 p-6">
-          <img src="~/assets/imgs/quiropraxia_coluna.png" alt="" />
+          <nuxt-img format="webp" src="/imgs/quiropraxia_coluna.png" alt="Quiropraxia" />
         </div>
       </div>
-      <div
-        data-aos="fade-up-left"
-        class="flex flex-wrap flex-col-reverse sm:flex-row"
-      >
+      <div data-aos="fade-up-left" class="flex flex-wrap flex-col-reverse sm:flex-row">
         <div class="w-full sm:w-1/2 p-6 mt-6">
-          <img src="~/assets/imgs/quiropraxia_dores.jpg" alt="" />
+          <nuxt-img format="webp" src="/imgs/quiropraxia_dores.jpg" alt="Quiropraxia" />
         </div>
         <div class="w-full sm:w-1/2 p-6 mt-6">
           <div class="align-middle">

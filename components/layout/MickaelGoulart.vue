@@ -44,8 +44,8 @@ export default defineComponent({
           </p>
         </div>
         <div class="w-full sm:w-1/2 p-6">
-          <img
-            src="~/assets/imgs/Mickael_Goulart.png"
+          <nuxt-img format="webp"
+            src="/imgs/Mickael_Goulart.png"
             alt="Mickael Goulart"
             class="rounded-full border-8"
           />
