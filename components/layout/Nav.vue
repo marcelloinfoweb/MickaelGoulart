@@ -3,7 +3,7 @@
     <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
       <div class="pl-4 flex justify-between items-center">
         <a href="#">
-          <nuxt-img format="webp" class="w-40" :src="logo" alt="Mickael Goulart" />
+          <nuxt-img format="webp" class="w-40" src="/imgs/logo_Mickael_Goulart.png" alt="Mickael Goulart" />
         </a>
       </div>
       <div class="block lg:hidden pr-4">
@@ -29,7 +29,6 @@
 
 <script>
 import MenuItem from "@/components/layout/MenuItem.vue";
-import Logo from "@/assets/imgs/logo_Mickael_Goulart.png";
 
 export default {
   name: "layout-nav",
@@ -40,7 +39,6 @@ export default {
 
   data() {
     return {
-      logo: Logo,
       scrollY: typeof window !== "undefined" ? window.scrollY : 0,
       mobileSidebar: false,
       menuItems: [
