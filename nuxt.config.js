@@ -1,6 +1,9 @@
+import { server } from "process";
+
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: true,
+  ssr: false,
+  target: "static",
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -39,13 +42,24 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     "@nuxt/image",
+    "@nuxtjs/sitemap",
     [
       "nuxt-cloudflare-analytics",
       {
         token: "60e5e5365b8f472886ec449c98667166",
       },
     ],
+    [
+      "nuxt-canonical",
+      {
+        baseUrl: "https://sharklabs.com.br",
+      },
+    ],
   ],
+
+  sitemap: {
+    hostname: "https://mickaelgoulart.pages.dev/",
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
