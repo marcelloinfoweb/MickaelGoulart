@@ -52,13 +52,13 @@ export default {
     [
       "nuxt-canonical",
       {
-        baseUrl: "https://sharklabs.com.br",
+        baseUrl: "https://mickaelgoulart.pages.dev",
       },
     ],
   ],
 
   sitemap: {
-    hostname: "https://mickaelgoulart.pages.dev/",
+    hostname: "https://mickaelgoulart.pages.dev",
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
