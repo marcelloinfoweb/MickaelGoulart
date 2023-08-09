@@ -1,60 +1,49 @@
 @font-face {
-  font-family: 'SourceSansPro';
-  src: url(../fonts/SourceSansPro-Black.ttf)
+  font-family: 'OpensSans';
+  src: url(../fonts/OpenSans-Bold.ttf)
 }
 
 @font-face {
-  font-family: 'SourceSansPro';
-  src: url(../fonts/SourceSansPro-BlackItalic.ttf)
+  font-family: 'OpensSans';
+  src: url(../fonts/OpenSans-BoldItalic.ttf)
 }
 
 @font-face {
-  font-family: 'SourceSansPro';
-  font-weight: 800;
-  src: url(../fonts/SourceSansPro-Bold.ttf)
+  font-family: 'OpensSans';
+  src: url(../fonts/OpenSans-ExtraBold.ttf)
 }
 
 @font-face {
-  font-family: 'SourceSansPro';
-  src: url(../fonts/SourceSansPro-BoldItalic.ttf)
+  font-family: 'OpensSans';
+  src: url(../fonts/OpenSans-ExtraBoldItalic.ttf)
 }
 
 @font-face {
-  font-family: 'SourceSansPro';
-  src: url(../fonts/SourceSansPro-ExtraLight.ttf)
+  font-family: 'OpensSans';
+  src: url(../fonts/OpenSans-Italic.ttf)
 }
 
 @font-face {
-  font-family: 'SourceSansPro';
-  src: url(../fonts/SourceSansPro-ExtraLightItalic.ttf)
+  font-family: 'OpensSans';
+  src: url(../fonts/OpenSans-Light.ttf)
 }
 
 @font-face {
-  font-family: 'SourceSansPro';
-  src: url(../fonts/SourceSansPro-Italic.ttf)
+  font-family: 'OpensSans';
+  src: url(../fonts/OpenSans-LightItalic.ttf)
 }
 
 @font-face {
-  font-family: 'SourceSansPro';
-  src: url(../fonts/SourceSansPro-Light.ttf)
+  font-family: 'OpensSans';
+  src: url(../fonts/OpenSans-Regular.ttf)
 }
 
 @font-face {
-  font-family: 'SourceSansPro';
-  src: url(../fonts/SourceSansPro-LightItalic.ttf)
+  font-family: 'OpensSans';
+  src: url(../fonts/OpenSans-SemiBold.ttf)
 }
 
 @font-face {
-  font-family: 'SourceSansPro';
-  src: url(../fonts/SourceSansPro-Regular.ttf)
-}
-
-@font-face {
-  font-family: 'SourceSansPro';
-  src: url(../fonts/SourceSansPro-SemiBold.ttf)
-}
-
-@font-face {
-  font-family: 'SourceSansPro';
-  src: url(../fonts/SourceSansPro-SemiBoldItalic.ttf)
+  font-family: 'OpensSans';
+  src: url(../fonts/OpenSans-SemiBoldItalic.ttf)
 }
