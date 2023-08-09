@@ -24,8 +24,7 @@ export default defineComponent({
           <layout-botao-quero-agendar />
         </div>
         <div class="w-full md:w-2/5 py-6 text-center">
-          <nuxt-img provider="cloudflare" format="webp" src="/imgs/a-quiropraxia-.png"
-            sizes="sm:100vw md:50vw lg:400px" />
+          <nuxt-img format="webp" src="/imgs/a-quiropraxia-.png" sizes="sm:100vw md:50vw lg:400px" />
         </div>
       </div>
     </div>
