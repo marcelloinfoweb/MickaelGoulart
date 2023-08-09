@@ -51,16 +51,16 @@ export default {
     [
       "nuxt-canonical",
       {
-        baseUrl: "http://localhost:3000",
+        baseUrl: "https://mickaelgoulart.pages.dev",
       },
     ],
   ],
   image: {
-    baseURL: "http://localhost:3000",
+    baseURL: "https://mickaelgoulart.pages.dev",
   },
 
   sitemap: {
-    hostname: "http://localhost:3000",
+    hostname: "https://mickaelgoulart.pages.dev",
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
