@@ -19,7 +19,6 @@
     "vue-template-compiler": "^2.7.10"
   },
   "devDependencies": {
-    "@nuxt/image": "^0.7.1",
     "@nuxt/types": "^2.15.8",
     "@nuxt/typescript-build": "^2.1.0",
     "@nuxtjs/tailwindcss": "^6.8.0",

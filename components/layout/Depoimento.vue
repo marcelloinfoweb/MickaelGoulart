@@ -28,8 +28,9 @@ export default defineComponent({
           class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow"
         >
           <p class="w-full text-gray-600 text-xs md:text-sm px-6 my-5">
-            Anderson Luis
+            Anderson
           </p>
+
           <p class="text-gray-800 text-base px-6 mb-5">
             Eu torci o pé e tive uma pequena fratura na fíbula, comecei a fazer
             o tratamento na Fisiosaúde com sessões de fisioterapia convencional,
@@ -55,7 +56,7 @@ export default defineComponent({
           class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow"
         >
           <p class="w-full text-gray-600 text-xs md:text-sm px-6 my-5">
-            Patrícia Caetano
+            Patrícia Aparecida
           </p>
           <p class="text-gray-800 text-base px-6 mb-5">
             Sempre tive muito problema de dor na coluna. Fiz muitas sessões de
@@ -77,7 +78,7 @@ export default defineComponent({
           class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow"
         >
           <p class="w-full text-gray-600 text-xs md:text-sm px-6 my-5">
-            Miriam Magalhães
+            Miriam
           </p>
           <p class="text-gray-800 text-base px-6 mb-5">
             A princípio não conhecia as técnicas da quiropraxia. Estava em busca
