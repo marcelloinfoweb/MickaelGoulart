@@ -12,7 +12,12 @@ export default {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "" },
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Fisioterapeuta especialista em quiropraxia (quiropraxia instrumental e osteopatia). Mais de 100 mil consultas e atendimentos com mais de 15 anos de experiência clínica.",
+      },
       { name: "format-detection", content: "telephone=no" },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
@@ -41,6 +46,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     "@nuxtjs/sitemap",
+    "@nuxtjs/robots",
     "@nuxt/image",
     // [
     //   "nuxt-cloudflare-analytics",
@@ -55,6 +61,11 @@ export default {
       },
     ],
   ],
+  robots: {
+    UserAgent: "*",
+    Disallow: "",
+    Sitemap: "https://mickaelgoulart.pages.dev/sitemap.xml",
+  },
   image: {
     baseURL: "https://mickaelgoulart.pages.dev",
   },
