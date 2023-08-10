@@ -1,5 +1,5 @@
 <template>
-  <nav id="header" class="fixed w-full z-30 top-0 text-white">
+  <nav id="header" class="fixed w-full z-30 top-0 bg-white">
     <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
       <div class="pl-4 flex justify-between items-center">
         <a href="#">
@@ -55,33 +55,33 @@ export default {
     window.addEventListener("scroll", this.handleScroll);
   },
 
-  watch: {
-    scrollY(newValue) {
-      const navaction = document.getElementById("navAction");
-      const header = document.getElementById("header");
-      const toToggle = document.querySelector(".toggleColour");
+  // watch: {
+  //   scrollY(newValue) {
+  //     const navaction = document.getElementById("navAction");
+  //     const header = document.getElementById("header");
+  //     const toToggle = document.querySelector(".toggleColour");
 
-      if (newValue > 10) {
-        navaction?.classList.remove("bg-white");
-        navaction?.classList.add("gradient");
-        navaction?.classList.remove("text-[#170F4F]");
-        navaction?.classList.add("text-white");
-        header?.classList.add("bg-white");
-        header?.classList.add("navbar-active");
-        toToggle?.classList.add("text-gray-800");
-        toToggle?.classList.remove("text-white");
-      } else {
-        navaction?.classList.add("bg-white");
-        navaction?.classList.remove("gradient");
-        navaction?.classList.add("text-[#170F4F]");
-        navaction?.classList.remove("text-white");
-        header?.classList.remove("bg-white");
-        header?.classList.remove("navbar-active");
-        toToggle?.classList.remove("text-gray-800");
-        toToggle?.classList.add("text-white");
-      }
-    },
-  },
+  //     if (newValue > 10) {
+  //       //navaction?.classList.remove("bg-white");
+  //       //navaction?.classList.add("gradient");
+  //       navaction?.classList.remove("text-[#170F4F]");
+  //       navaction?.classList.add("text-white");
+  //       header?.classList.add("bg-white");
+  //       header?.classList.add("navbar-active");
+  //       toToggle?.classList.add("text-gray-800");
+  //       toToggle?.classList.remove("text-white");
+  //     } else {
+  //       //navaction?.classList.add("bg-white");
+  //       //navaction?.classList.remove("gradient");
+  //       navaction?.classList.add("text-[#170F4F]");
+  //       navaction?.classList.remove("text-white");
+  //       //header?.classList.remove("bg-white");
+  //       header?.classList.remove("navbar-active");
+  //       toToggle?.classList.remove("text-gray-800");
+  //       toToggle?.classList.add("text-white");
+  //     }
+  //   },
+  // },
 
   methods: {
     handleScroll() {

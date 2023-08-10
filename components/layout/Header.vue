@@ -13,7 +13,7 @@ export default defineComponent({
   <div>
     <div data-aos="fade-up" class="pt-24">
       <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-        <div class="flex flex-col w-full md:w-3/5 justify-center items-start text-center md:text-left">
+        <div class="flex flex-col w-full md:w-3/5 justify-center items-center text-center md:text-left">
           <h1 class="my-4 text-5xl font-bold leading-tight">
             Acabe de uma vez com a dor na coluna
           </h1>
@@ -23,7 +23,7 @@ export default defineComponent({
           </p>
           <layout-botao-quero-agendar />
         </div>
-        <div class="w-full md:w-2/5 py-6 text-center">
+        <div>
           <nuxt-img format="webp" src="/imgs/a-quiropraxia-.png" sizes="sm:100vw md:50vw lg:400px" alt="quiropraxia" />
         </div>
       </div>
