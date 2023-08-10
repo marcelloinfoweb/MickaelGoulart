@@ -23,8 +23,7 @@ export default defineComponent({
             Mickael Goulart / CREFITO 117193F
           </h3>
           <p class="text-gray-600 mb-8">
-            Fisioterapeuta especialista em quiropraxia (quiropraxia instrumental
-            e osteopatia).
+            Fisioterapeuta especialista em quiropraxia, instrumental e osteopatia.
           </p>
           <p class="text-gray-600 mb-8">
             Mais de 100 mil consultas e atendimentos com mais de 15 anos de
@@ -34,9 +33,9 @@ export default defineComponent({
             Não espere a dor chegar para se cuidar! Agende agora mesmo sua
             avaliação com o melhor especialista da região!
           </p>
-          <p class="mt-2 md:mt-20">
+          <div data-aos="zoom-in-down" class="inset-0 flex items-center justify-center">
             <layout-botao-quero-agendar />
-          </p>
+          </div>
         </div>
         <div class="w-full sm:w-1/2 p-6">
           <nuxt-img format="webp" src="/imgs/Mickael_Goulart.png" sizes="sm:100vw md:50vw lg:300px" alt="Mickael Goulart"

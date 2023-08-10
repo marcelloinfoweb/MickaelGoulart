@@ -50,9 +50,9 @@ export default defineComponent({
               depois, os horários são preenchidos rapidamente, então agende hoje
               mesmo seu horário!
             </p>
-            <p class="mt-20">
+            <div data-aos="zoom-in-down" class="inset-0 flex items-center justify-center">
               <layout-botao-quero-agendar />
-            </p>
+            </div>
           </div>
         </div>
       </div>
