@@ -8,6 +8,7 @@ export default {
     title: "Mickael Goulart",
     htmlAttrs: {
       lang: "pt-br",
+      amp: true,
     },
     meta: [
       { charset: "utf-8" },
@@ -57,11 +58,13 @@ export default {
       },
     ],
   ],
+
   robots: {
     UserAgent: "*",
     Disallow: "",
     Sitemap: "https://mickaelgoulart.pages.dev/sitemap.xml",
   },
+
   image: {
     baseURL: "https://mickaelgoulart.pages.dev",
   },
