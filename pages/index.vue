@@ -10,7 +10,6 @@
       data-aos="zoom-in-up"
       class="wave-top"
       viewBox="0 0 1439 147"
-      version="1.1"
       xmlns="http://www.w3.org/2000/svg"
     >
       <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
