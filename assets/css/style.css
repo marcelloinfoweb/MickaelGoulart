@@ -2,32 +2,35 @@
 @import url(./fonts.css);
 
 * {
-  transition: all .3s linear;
-  font-family: 'OpenSans','SourceSansPro', sans-serif
+  transition: all 0.3s linear;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .gradient {
-  background: linear-gradient(90deg, #568C04 0%, #aae750 100%)
+  background: linear-gradient(90deg, #568c04 0%, #aae750 100%);
 }
 
 @media (max-width: 768px) {
   [data-aos] {
     opacity: 1 !important;
     transform: none !important;
-    visibility: visible !important
+    visibility: visible !important;
   }
 }
 
 html {
-  scroll-behavior: smooth
+  scroll-behavior: smooth;
 }
 
-#customers, #pricing {
-  scroll-margin-top: 100px
+#customers,
+#pricing {
+  scroll-margin-top: 100px;
 }
 
 img {
   user-select: none;
   user-drag: none;
-  pointer-events: none
+  pointer-events: none;
 }

@@ -6668,11 +6668,6 @@ nuxt-canonical@^1.0.6:
     cheerio "^1.0.0-rc.3"
     lodash "^4.17.15"
 
-nuxt-cloudflare-analytics@0.1.5:
-  version "0.1.5"
-  resolved "https://registry.npmjs.org/nuxt-cloudflare-analytics/-/nuxt-cloudflare-analytics-0.1.5.tgz"
-  integrity sha512-2TNHnnXy8QFfkx3fqY/Y28om6r3040RTkvkIvQLbDcNl148AFnj8Gxs+utA3FsXdDyWWsDGBU4f4sr8yF2/sLA==
-
 nuxt@^2.15.8:
   version "2.17.1"
   resolved "https://registry.npmjs.org/nuxt/-/nuxt-2.17.1.tgz"

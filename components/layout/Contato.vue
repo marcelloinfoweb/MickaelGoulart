@@ -12,7 +12,7 @@ export default defineComponent({
 
 <template>
   <div>
-    <section id="contact" class="container mx-auto text-center py-6 mb-12">
+    <section id="contato" class="container mx-auto text-center py-6 mb-12">
       <h2 data-aos="fade-up" class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
         Agende uma consulta agora mesmo
       </h2>

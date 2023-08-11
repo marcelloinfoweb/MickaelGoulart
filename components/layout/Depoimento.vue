@@ -7,7 +7,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <section id="customers" class="bg-gray-100 border-b py-8">
+  <section id="depoimentos" class="bg-gray-100 border-b py-8">
     <div class="container mx-auto flex flex-wrap pt-4 pb-12">
       <h2 data-aos="fade-up" class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
         Depoimentos

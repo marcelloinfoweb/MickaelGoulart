@@ -35,6 +35,8 @@ export default {
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
+  linkExactActiveClass: "exact-active-link",
+
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     "@nuxt/image",
@@ -48,12 +50,6 @@ export default {
     "@nuxtjs/sitemap",
     "@nuxtjs/robots",
     "@nuxt/image",
-    // [
-    //   "nuxt-cloudflare-analytics",
-    //   {
-    //     token: "60e5e5365b8f472886ec449c98667166",
-    //   },
-    // ],
     [
       "nuxt-canonical",
       {
