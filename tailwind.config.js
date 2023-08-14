@@ -6,7 +6,7 @@ export const content = [
   "./plugins/**/*.{js,ts}",
   "./nuxt.config.{js,ts}",
 ];
-export const darkMode = 'media';
+export const darkMode = false;
 export const theme = {
   extend: {},
 };

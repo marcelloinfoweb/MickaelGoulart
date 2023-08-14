@@ -1,13 +1,14 @@
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: true,
+  target: "static",
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: "Mickael Goulart",
     htmlAttrs: {
-      lang: "pt-br",
-      amp: true
+      lang: "pt-br"
+      //amp: true
     },
     meta: [
       { charset: "utf-8" },
@@ -52,13 +53,13 @@ export default {
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
-  linkExactActiveClass: "exact-active-link",
+  // linkExactActiveClass: "exact-active-link",
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     "@nuxt/image",
     // https://go.nuxtjs.dev/typescript
-    // "@nuxt/typescript-build",
+    "@nuxt/typescript-build",
     "@nuxtjs/tailwindcss"
   ],
 
@@ -66,7 +67,11 @@ export default {
   modules: [
     "@nuxt/image",
     "@nuxtjs/sitemap",
-    "@nuxtjs/robots",
+    ["@nuxtjs/robots", {
+      UserAgent: "*",
+      Disallow: "",
+      Sitemap: "https://mickaelgoulart.com.br/sitemap.xml"
+    }],
     [
       "nuxt-canonical",
       {
@@ -74,12 +79,6 @@ export default {
       }
     ]
   ],
-
-  robots: {
-    UserAgent: "*",
-    Disallow: "",
-    Sitemap: "https://mickaelgoulart.com.br/sitemap.xml"
-  },
 
   image: {
     baseURL: "https://mickaelgoulart.com.br"
