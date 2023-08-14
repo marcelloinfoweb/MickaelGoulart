@@ -1,14 +1,13 @@
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: true,
-  target: "static",
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: "Mickael Goulart",
     htmlAttrs: {
       lang: "pt-br",
-      amp: true,
+      amp: true
     },
     meta: [
       { charset: "utf-8" },
@@ -17,11 +16,28 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "Fisioterapeuta especialista em quiropraxia (quiropraxia instrumental e osteopatia). Mais de 100 mil consultas e atendimentos com mais de 15 anos de experiência clínica.",
+          "Fisioterapeuta especialista em quiropraxia (quiropraxia instrumental e osteopatia). Mais de 100 mil consultas e atendimentos com mais de 15 anos de experiência clínica."
       },
-      { name: "format-detection", content: "telephone=no" },
+      { name: "format-detection", content: "telephone=no" }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    link: [
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      {
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com/",
+        crossorigin: true
+      },
+      {
+        rel: "dns-prefetch",
+        href: "https://fonts.gstatic.com/"
+      },
+      {
+        rel: "preload",
+        as: "style",
+        href: "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap",
+        onload: "this.onload=null;this.rel='stylesheet'"
+      }
+    ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -30,7 +46,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: "~/plugins/aos.js", mode: "client" },
-    { src: "~/plugins/vue-gtag.js" },
+    { src: "~/plugins/vue-gtag.js" }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -43,34 +59,34 @@ export default {
     "@nuxt/image",
     // https://go.nuxtjs.dev/typescript
     // "@nuxt/typescript-build",
-    "@nuxtjs/tailwindcss",
+    "@nuxtjs/tailwindcss"
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    "@nuxt/image",
     "@nuxtjs/sitemap",
     "@nuxtjs/robots",
-    "@nuxt/image",
     [
       "nuxt-canonical",
       {
-        baseUrl: "https://mickaelgoulart.pages.dev",
-      },
-    ],
+        baseUrl: "https://mickaelgoulart.com.br"
+      }
+    ]
   ],
 
   robots: {
     UserAgent: "*",
     Disallow: "",
-    Sitemap: "https://mickaelgoulart.pages.dev/sitemap.xml",
+    Sitemap: "https://mickaelgoulart.com.br/sitemap.xml"
   },
 
   image: {
-    baseURL: "https://mickaelgoulart.pages.dev",
+    baseURL: "https://mickaelgoulart.com.br"
   },
 
   sitemap: {
-    hostname: "https://mickaelgoulart.pages.dev",
+    hostname: "https://mickaelgoulart.com.br"
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -79,9 +95,9 @@ export default {
       postcssOptions: {
         plugins: {
           tailwindcss: {},
-          autoprefixer: {},
-        },
-      },
-    },
-  },
+          autoprefixer: {}
+        }
+      }
+    }
+  }
 };

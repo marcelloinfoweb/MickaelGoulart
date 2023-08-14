@@ -5,7 +5,7 @@ import LayoutBotaoQueroAgendar from "~/components/layout/BotaoQueroAgendar.vue";
 
 export default defineComponent({
   name: "layout-header",
-  components: { LayoutBotaoQueroAgendar, LayoutHeaderBottom },
+  components: { LayoutBotaoQueroAgendar, LayoutHeaderBottom }
 });
 </script>
 

@@ -66,7 +66,7 @@ export default Vue.extend({
     LayoutMickaelgoulart,
     LayoutSobreQuiropraxia,
     LayoutHeader,
-    LayoutNav,
-  },
+    LayoutNav
+  }
 });
 </script>

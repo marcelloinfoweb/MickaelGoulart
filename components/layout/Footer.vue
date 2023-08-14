@@ -81,7 +81,7 @@
                 aria-label="Nosso telefone"
                 title="Nosso telefone"
                 class="no-underline hover:underline text-gray-800 hover:text-pink-500"
-                >31 3891-1213</a
+              >31 3891-1213</a
               >
             </div>
             <div class="flex">
@@ -104,7 +104,7 @@
                 aria-label="Nosso email"
                 title="Nosso email"
                 class="no-underline hover:underline text-gray-800 hover:text-pink-500"
-                >clinicafs@hotmail.com</a
+              >clinicafs@hotmail.com</a
               >
             </div>
           </div>
@@ -148,6 +148,6 @@
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "layout-footer",
+  name: "layout-footer"
 });
 </script>
