@@ -23,8 +23,8 @@
               </svg>
             </p>
             <a href="https://goo.gl/maps/gurso9rausfAhXbLA" target="_blank" rel="noopener noreferrer"
-              aria-label="Nosso Endereço" title="Nosso Endereço"
-              class="no-underline hover:underline text-gray-800 hover:text-pink-500">
+              aria-label="Avenida Jacob Lopes de Castro 120, Loja 3. Bairro Nova Era. Viçosa - MG CEP 36.574.196"
+              title="Nosso Endereço" class="no-underline hover:underline text-gray-800 hover:text-pink-500">
               Avenida Jacob Lopes de Castro 120, Loja 3.
               <br />Bairro Nova Era. Viçosa - MG <br />CEP 36.574.196
             </a>
@@ -43,7 +43,7 @@
                     d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
                 </svg>
               </p>
-              <a href="tel:55+3138911213" aria-label="Nosso telefone" title="Nosso telefone"
+              <a href="tel:55+3138911213" aria-label="31 3891-1213" title="Nosso telefone"
                 class="no-underline hover:underline text-gray-800 hover:text-pink-500">31 3891-1213</a>
             </div>
             <div class="flex">
@@ -54,7 +54,7 @@
                     d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
                 </svg>
               </p>
-              <a href="mailto:clinicafs@hotmail.com" aria-label="Nosso email" title="Nosso email"
+              <a href="mailto:clinicafs@hotmail.com" aria-label="clinicafs@hotmail.com" title="Nosso email"
                 class="no-underline hover:underline text-gray-800 hover:text-pink-500">clinicafs@hotmail.com</a>
             </div>
           </div>
@@ -64,7 +64,7 @@
             Social
           </p>
           <div class="flex items-center mt-1 space-x-3">
-            <a href="https://instagram.com/mickaelgoulart/"
+            <a href="https://instagram.com/mickaelgoulart/" aria-label="Siga-nos no Instagram"
               class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400">
               <svg viewBox="0 0 30 30" fill="currentColor" class="h-10">
                 <circle cx="15" cy="15" r="4"></circle>
@@ -73,7 +73,7 @@
                 </path>
               </svg>
             </a>
-            <a href="https://www.facebook.com/fisiosaudevicosa"
+            <a href="https://www.facebook.com/fisiosaudevicosa" aria-label="Siga-nos no Facebook"
               class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400">
               <svg viewBox="0 0 24 24" fill="currentColor" class="h-8">
                 <path
