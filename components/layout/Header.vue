@@ -26,7 +26,8 @@ export default defineComponent({
           </div>
         </div>
         <div class="flex-1">
-          <nuxt-img format="webp" src="/imgs/a-quiropraxia-.png" sizes="sm:100vw md:50vw lg:400px" alt="quiropraxia" />
+          <nuxt-img format="webp" src="/imgs/a-quiropraxia-.png" width="399" height="525"
+            sizes="sm:100vw md:50vw lg:400px" alt="quiropraxia" />
         </div>
       </div>
     </div>

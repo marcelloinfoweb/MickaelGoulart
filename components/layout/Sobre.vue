@@ -11,16 +11,11 @@ export default defineComponent({
 <template>
   <section id="quiropraxia" class="bg-white border-b py-8">
     <div class="container max-w-5xl mx-auto m-8">
-      <h2
-        data-aos="fade-up"
-        class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
-      >
+      <h2 data-aos="fade-up" class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
         Sobre a Quiropraxia
       </h2>
       <div data-aos="fade-up" class="w-full mb-4">
-        <div
-          class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
-        ></div>
+        <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
       <div data-aos="fade-up-right" class="flex flex-wrap">
         <div class="w-full sm:w-1/2 p-6">
@@ -35,25 +30,14 @@ export default defineComponent({
           </p>
         </div>
         <div class="w-full sm:w-1/2 p-6">
-          <nuxt-img
-            format="webp"
-            sizes="lg:464px"
-            src="/imgs/quiropraxia_coluna.png"
-            alt="Quiropraxia"
-          />
+          <nuxt-img format="webp" sizes="lg:464px" src="/imgs/quiropraxia_coluna.png" width="464" height="357"
+            alt="Quiropraxia" />
         </div>
       </div>
-      <div
-        data-aos="fade-up-left"
-        class="flex flex-wrap flex-col-reverse sm:flex-row"
-      >
+      <div data-aos="fade-up-left" class="flex flex-wrap flex-col-reverse sm:flex-row">
         <div class="w-full sm:w-1/2 p-6 mt-6">
-          <nuxt-img
-            format="webp"
-            sizes="lg:464px"
-            src="/imgs/quiropraxia_dores.jpg"
-            alt="Quiropraxia"
-          />
+          <nuxt-img format="webp" sizes="lg:464px" width="465" height="464" src="/imgs/quiropraxia_dores.jpg"
+            alt="Quiropraxia" />
         </div>
         <div class="w-full sm:w-1/2 p-6 mt-6">
           <div class="align-middle">
@@ -68,10 +52,7 @@ export default defineComponent({
               depois, os horários são preenchidos rapidamente, então agende hoje
               mesmo seu horário!
             </p>
-            <div
-              data-aos="zoom-in-down"
-              class="inset-0 flex items-center justify-center"
-            >
+            <div data-aos="zoom-in-down" class="inset-0 flex items-center justify-center">
               <layout-botao-quero-agendar />
             </div>
           </div>
