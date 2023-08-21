@@ -1,51 +1,55 @@
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: true,
-  target: 'static',
+  target: "static",
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Mickael Goulart',
+    title: "Mickael Goulart",
     htmlAttrs: {
-      lang: 'pt-br',
+      lang: "pt-br",
       //amp: true
     },
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
-        hid: 'description',
-        name: 'description',
+        hid: "description",
+        name: "description",
         content:
-          'Fisioterapeuta especialista em quiropraxia, quiropraxia instrumental e osteopatia. Mais de 100 mil consultas e atendimentos com mais de 15 anos de experiência clínica.',
+          "Fisioterapeuta especialista em quiropraxia, quiropraxia instrumental e osteopatia. Mais de 100 mil consultas e atendimentos com mais de 15 anos de experiência clínica.",
       },
-      { name: 'format-detection', content: 'telephone=no' },
+      { name: "format-detection", content: "telephone=no" },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
       {
-        rel: 'preconnect',
-        href: 'https://fonts.gstatic.com/',
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com/",
         crossorigin: true,
       },
       {
-        rel: 'dns-prefetch',
-        href: 'https://fonts.gstatic.com/',
+        rel: "dns-prefetch",
+        href: "https://fonts.gstatic.com/",
       },
       {
-        rel: 'preload',
-        as: 'style',
-        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap',
+        rel: "preload",
+        as: "style",
+        href: "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap",
         onload: "this.onload=null;this.rel='stylesheet'",
       },
     ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['~/assets/css/style.css'],
+  css: ["~/assets/css/style.css"],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [{ src: '~/plugins/aos.js', mode: 'client' }, { src: '~/plugins/vue-gtag.js' }],
+  plugins: [
+    { src: "~/plugins/aos.js", mode: "client" },
+    { src: "~/plugins/vue-gtag.js" },
+    { src: "~/plugins/pixel-meta.js" },
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -54,38 +58,38 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    '@nuxt/image',
+    "@nuxt/image",
     // https://go.nuxtjs.dev/typescript
-    '@nuxt/typescript-build',
-    '@nuxtjs/tailwindcss',
+    "@nuxt/typescript-build",
+    "@nuxtjs/tailwindcss",
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxt/image',
-    '@nuxtjs/sitemap',
+    "@nuxt/image",
+    "@nuxtjs/sitemap",
     [
-      '@nuxtjs/robots',
+      "@nuxtjs/robots",
       {
-        UserAgent: '*',
-        Disallow: '',
-        Sitemap: 'https://mickaelgoulart.com.br/sitemap.xml',
+        UserAgent: "*",
+        Disallow: "",
+        Sitemap: "https://mickaelgoulart.com.br/sitemap.xml",
       },
     ],
     [
-      'nuxt-canonical',
+      "nuxt-canonical",
       {
-        baseUrl: 'https://mickaelgoulart.com.br',
+        baseUrl: "https://mickaelgoulart.com.br",
       },
     ],
   ],
 
   image: {
-    baseURL: 'https://mickaelgoulart.com.br',
+    baseURL: "https://mickaelgoulart.com.br",
   },
 
   sitemap: {
-    hostname: 'https://mickaelgoulart.com.br',
+    hostname: "https://mickaelgoulart.com.br",
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -99,4 +103,4 @@ export default {
       },
     },
   },
-}
+};
