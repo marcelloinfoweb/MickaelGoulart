@@ -19,7 +19,7 @@ export default defineComponent({
       </div>
       <div data-aos="fade-up-right" class="flex flex-wrap">
         <div class="w-full sm:w-1/2 p-6">
-          <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+          <h3 class="text-2xl text-gray-800 font-bold leading-none mb-3">
             Corrigir problemas vertebrais
           </h3>
           <p class="text-gray-600 mb-8">
@@ -41,7 +41,7 @@ export default defineComponent({
         </div>
         <div class="w-full sm:w-1/2 p-6 mt-6">
           <div class="align-middle">
-            <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+            <h3 class="text-2xl text-gray-800 font-bold leading-none mb-3">
               Além da coluna
             </h3>
             <p class="text-gray-600 mb-8">

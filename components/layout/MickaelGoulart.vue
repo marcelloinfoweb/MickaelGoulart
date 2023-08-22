@@ -19,7 +19,7 @@ export default defineComponent({
       </div>
       <div data-aos="fade-up-right" class="flex mx-auto flex-wrap">
         <div class="w-fill sm:w-1/2 p-6">
-          <h4 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+          <h4 class="text-2xl text-gray-800 font-bold leading-none mb-3">
             Mickael Goulart / CREFITO 117193F
           </h4>
           <div class="text-gray-700 text-justify">
