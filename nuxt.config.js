@@ -48,7 +48,6 @@ export default {
   plugins: [
     { src: "~/plugins/aos.js", mode: "client" },
     { src: "~/plugins/vue-gtag.js" },
-    { src: "~/plugins/pixel-meta.js" },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -68,6 +67,13 @@ export default {
   modules: [
     "@nuxt/image",
     "@nuxtjs/sitemap",
+    ['nuxt-facebook-pixel-module', {
+      /* module options */
+      track: 'PageView',
+      pixelId: 'FACEBOOK_PIXEL_ID',
+      autoPageView: true,
+      disabled: false
+    }],
     [
       "@nuxtjs/robots",
       {
