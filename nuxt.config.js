@@ -65,7 +65,6 @@ export default {
   modules: [
     "@nuxt/image",
     "@nuxtjs/sitemap",
-    "nuxt-gtag",
     [
       "nuxt-facebook-pixel-module",
       {
