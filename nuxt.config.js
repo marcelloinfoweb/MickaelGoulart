@@ -45,10 +45,7 @@ export default {
   css: ["~/assets/css/style.css"],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-    { src: "~/plugins/aos.js", mode: "client" },
-    
-  ],
+  plugins: [{ src: "~/plugins/aos.js", mode: "client" }],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -61,20 +58,24 @@ export default {
     // https://go.nuxtjs.dev/typescript
     "@nuxt/typescript-build",
     "@nuxtjs/tailwindcss",
+    "@nuxtjs/google-analytics",
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     "@nuxt/image",
     "@nuxtjs/sitemap",
-    'nuxt-gtag',
-    ['nuxt-facebook-pixel-module', {
-      /* module options */
-      track: 'PageView',
-      pixelId: '745129640714075',
-      autoPageView: true,
-      disabled: false
-    }],
+    "nuxt-gtag",
+    [
+      "nuxt-facebook-pixel-module",
+      {
+        /* module options */
+        track: "PageView",
+        pixelId: "745129640714075",
+        autoPageView: true,
+        disabled: false,
+      },
+    ],
     [
       "@nuxtjs/robots",
       {
@@ -92,7 +93,11 @@ export default {
   ],
 
   gtag: {
-    id: 'AW-469965749'
+    id: "AW-469965749",
+  },
+
+  googleAnalytics: {
+    id: "AW-469965749", // Use as fallback if no runtime config is provided
   },
 
   image: {
