@@ -92,12 +92,8 @@ export default {
     ],
   ],
 
-  gtag: {
-    id: "AW-469965749",
-  },
-
   googleAnalytics: {
-    id: "AW-469965749", // Use as fallback if no runtime config is provided
+    id: "G-21RZYCMSX9",
   },
 
   image: {
