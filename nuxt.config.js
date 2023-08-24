@@ -67,6 +67,7 @@ export default {
   modules: [
     "@nuxt/image",
     "@nuxtjs/sitemap",
+    'nuxt-gtag',
     ['nuxt-facebook-pixel-module', {
       /* module options */
       track: 'PageView',
@@ -89,6 +90,10 @@ export default {
       },
     ],
   ],
+
+  gtag: {
+    id: 'AW-469965749'
+  },
 
   image: {
     baseURL: "https://mickaelgoulart.com.br",
